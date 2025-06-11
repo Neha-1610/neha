@@ -7,23 +7,20 @@ num2 = float(input("Enter the second number:"))
 
 # perform for calculation
 
-if operator =='+':
+if operator == "+":
     result = num1 + num2
     print(f"sum of {num1} + {num2} = {result}")
 
-elif operator =='*':
+elif operator == "*":
     result = num1 * num2
     print(f"sum of {num1} * {num2} = {result}")
 
-elif operator =='/':
+elif operator ==  "/":
     result = num1 / num2
     print(f"sum of {num1} / {num2} = {result}")
 
-elif operator =='-':
+elif operator == "-":
     result = num1 - num2
     print(f"sum of {num1} - {num2} = {result}")
-    
-    
-
 else:
     print("This operator is not found")
