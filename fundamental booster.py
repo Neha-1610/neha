@@ -1,6 +1,6 @@
 def personal_data_collector():
 
- print("Welcome to the Interactive Personal Data Collector!")
+    print("Welcome to the Interactive Personal Data Collector!")
 
 name = input("Please enter your name: ")
 age = int(input("Please enter your age: "))
