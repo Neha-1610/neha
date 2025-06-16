@@ -24,4 +24,5 @@ while True:
     again = input("\nwould you like to calculate another bill? (y/n) ").lower()
     if again != 'y':
         print("Thank you for using the bill splitter app!")
+        print("...")
         break
